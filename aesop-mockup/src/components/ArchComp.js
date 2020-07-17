@@ -1,14 +1,13 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import
+
 
 // ARCHITECTURE AND DESIGN DIV
 // https://www.npmjs.com/package/react-slideshow-image
 const slideImages = [
-    '/aesop-mockup/src/assets/images/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg',
-    
-    '/aesop-mockup/src/assets/images/Aesop-Free-Market-Carousel-1-Desktop-2560x1440px.png',
+    'aesop-mockup/src/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg',
+    'aesop-mockup/src/Aesop-Free-Market-Carousel-1-Desktop-2560x1440px.png'
 ]
  const Slideshow = () => {
      return (
@@ -41,7 +40,7 @@ class ArchComp extends React.Component {
     }
     render() {
         return (
-            <div className="arch-comp">
+            <div className="child arch-comp">
                 <h3>Architecture and Design</h3>
                 <h2>Spaces of distinction</h2>
                 <h3>Aesop stores are informed by the history, fabric, and context of their local environments, yet retain an aesthetic consistency</h3>
