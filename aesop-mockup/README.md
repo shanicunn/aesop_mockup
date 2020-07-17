@@ -21,12 +21,12 @@ Shani Cunningham, Hector Rodriguez, Rachel Powe
 * Five mythical Gift Kits div (Explore seasonal Gift kits button),Odyssey of gifts div (Gift ul), 
  
 * Architecture and Design div
-    *Slideshow
-    *Find nearby store button
+    * Slideshow
+    * Find nearby store button
 
 * Discover more div
-    *2 ul
-    *Quote  
+    * 2 ul
+    * Quote  
 * Footer
-    *Email input
-    *Contact, about, social
+    * Email input
+    * Contact, about, social
