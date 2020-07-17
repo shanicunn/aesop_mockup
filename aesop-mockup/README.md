@@ -3,12 +3,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Aesop Mockup
 
 ## Team Members
-Shani Cunningham, Hector Rodriguez, Rachel Powe
+Shani Cunningham, Hector Rodriguez, Rachel Powe, Chris Potti
 
 ## Features
 * Shani: Body, Layout, Main, Login button, Architecture and Design Div
 * Hector: Header, Nav bar, Component for Aesop essentials +
 * Rachel: Component for five mythical/Odyssey
+* Chris: 
 
 ## Body of Site
 * Header
