@@ -9,7 +9,7 @@ Shani Cunningham, Hector Rodriguez, Rachel Powe, Chris Potti
 * Shani: Body, Layout, Main, Login button, Architecture and Design Div
 * Hector: Header, Nav bar, Component for Aesop essentials +
 * Rachel: Component for five mythical/Odyssey
-* Chris: 
+* Chris: Footer Component, Discover More Div
 
 ## Body of Site
 * Header
