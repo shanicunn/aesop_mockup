@@ -21,16 +21,18 @@ class Footer extends React.Component {
       
     render() {
         return (
-            <div>
-                <h1>hello this is the footer component</h1>
-                <form>
+            <div className="child footer">
+                {/* <h1>hello this is the footer component</h1> */}
+                <form className="footer1">
                     <label>I would like to receive communications about Aesop products, services, stores,events and matters of cultural interest.</label>
-                    <input type='email' 
+                    <input className="input" type='email' 
                     placeholder='Email address' 
                     value= {this.state.email}
                     onChange = {this.onEmailChange}
                     ></input>
                 </form>
+                <div className="footer2">
+
                 <h4>Contact Us</h4>
                 <ul>
                     <li>
@@ -55,8 +57,9 @@ class Footer extends React.Component {
                          <a src='https://nintendo.com' target='new'> Accessibility</a>
                     </li>
                 </ul>
-                    
-                <h4>About</h4>
+                    </div>
+                    <div className="footer3">
+                          <h4>About</h4>
                 <ul>
                     <li>
                          <a src='https://nintendo.com' target='new'> Our story</a>
@@ -75,20 +78,25 @@ class Footer extends React.Component {
                     </li>
 
                 </ul>
-
-                <h4>Social</h4>
+                    </div>
+               <div className="footer4">
+                      <h4>Social</h4>
                 <ul>
                     <li>
-                         <a src='https://nintendo.com' target='new'> Instagram</a>
+                         <a src='' target='new'> Instagram</a>
                     </li>
                     <li>
-                         <a src='https://nintendo.com' target='new'> Twitter</a>
+                         <a src='' target='new'> Twitter</a>
                     </li>
                     <li>
-                         <a src='https://nintendo.com' target='new'> Linkedin</a>
+                         <a src='' target='new'> Linkedin</a>
                     </li>
                     
                 </ul>
+               </div>
+
+
+              
             </div>
         );
     }
