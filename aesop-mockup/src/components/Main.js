@@ -1,6 +1,7 @@
 import React from 'react';
 
-const background = '/aesop-mockup/src/assets/images/Aesop-Homepage-Banner.jpg';
+
+
 
 class Main extends React.Component {
     constructor (props) {
@@ -12,14 +13,14 @@ class Main extends React.Component {
     render() {
         return(
             
-            <div style={{'backgroundImage': `url(${background})`}}>
+            <div className="main">
                 <h1>Aesop</h1>
 
                 <h1>Formulations for skin, hair, home, and body</h1>
 
                 <h2>Created with sensory pleasure in mind</h2>
 
-                <button>Login</button>
+                <button>Login</button> 
             </div>
           
         )
