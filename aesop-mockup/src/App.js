@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import ArchComp from './components/ArchComp';
-// import NavBarComp from './components/NavBarComp';
+import EssentialsComp from './components/EssentialsComp';
 
 function App() {
   return (
@@ -9,10 +9,8 @@ function App() {
 
     
     {/* Architecture and Design */}
-      <ArchComp
-        
-      />
-      {/* <NavBarComp /> */}
+      {/* <ArchComp/> */}
+      <EssentialsComp />
     </div>
   );
 }
