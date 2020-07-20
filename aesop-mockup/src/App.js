@@ -3,6 +3,7 @@ import './App.css';
 import ArchComp from './components/ArchComp';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import Discovermore from './components/Discovermore';
 function App() {
   return (
     <div className="App">
@@ -26,7 +27,7 @@ function App() {
       <ArchComp      />
       {/* Nurturing formulations */}
 
-      {/* Discover More */}
+      <Discovermore/>
 
       {/* Footer */}
       <Footer />
