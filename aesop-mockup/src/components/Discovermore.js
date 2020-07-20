@@ -8,7 +8,9 @@ class Discovermore extends React.Component {
         render() { 
             return (
                 <div>
-                    <img src='##' alt='product image'></img>
+                    <img src='/src/assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png' alt='product image'></img>
+
+                   
                     <h1>Discover More</h1>
 
                     <h3>Kits & duets</h3>
