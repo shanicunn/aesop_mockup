@@ -40,12 +40,21 @@ class ArchComp extends React.Component {
     }
     render() {
         return (
-            <div className="child arch-comp">
+            < div className="child arch-comp">
+           
+                <div className="column1">
                 <h3>Architecture and Design</h3>
                 <h2>Spaces of distinction</h2>
+            </div>
+            <div className="column2">
                 <h3>Aesop stores are informed by the history, fabric, and context of their local environments, yet retain an aesthetic consistency</h3>
                 <button> Find A Nearby Store </button>
-                <Slideshow />
+            </div>
+            
+                <div className="row">
+                     <Slideshow />
+                </div>
+               
             </div>
         )
     }

@@ -16,13 +16,13 @@ class Main extends React.Component {
             
             <div className="child main">
             <NavBarComp />
-                <h1>Aesop</h1>
+                <h1 className="Aesop">Aesop</h1>
 
-                <h1>Formulations for skin, hair, home, and body</h1>
+                <h1 className="title">Formulations for skin, hair, home, and body</h1>
 
-                <h2>Created with sensory pleasure in mind</h2>
+                <h2 className="description">Created with sensory pleasure in mind</h2>
 
-                <button className="login">Login</button> 
+                {/* <button className="login">Login</button>  */}
             </div>
           
         )

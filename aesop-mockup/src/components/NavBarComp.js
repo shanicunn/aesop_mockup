@@ -40,7 +40,8 @@ const styles = {
     li: {
         paddingLeft: '10px'
     },
-    login: {
-        position: 'aboslute',
-    },
+
+    login: { // Position on the top right side of screen
+        
+    }
 }
