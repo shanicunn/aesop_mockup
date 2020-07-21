@@ -3,13 +3,15 @@ import './App.css';
 import ArchComp from './components/ArchComp';
 import Main from './components/Main';
 import Footer from './components/Footer';
+// import NavBarComp from './components/NavBarComp';
+
 function App() {
   return (
     <div className="App">
       {/* Header */}
 
       {/* NavBar */}
-      
+      {/* <NavBarComp /> */}
       {/* Main */}
       <Main />
       {/* Aesop Essentials */}
