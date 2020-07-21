@@ -42,5 +42,5 @@ const styles = {
     },
     login: {
         position: 'aboslute',
-    }
+    },
 }
