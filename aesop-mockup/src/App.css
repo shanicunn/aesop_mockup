@@ -1,6 +1,6 @@
 /* BODY */
 .App {
-  text-align: center;
+  
   width: 80%;
   margin: auto;
 }
@@ -38,11 +38,67 @@ button, .input{
   height: 500px;
   background-image: url('/aesop-mockup/src/Aesop-Homepage-Banner.jpg');
 }
-/* ARCHITECTURE */
-.slide-container {
-  height: 500px;
+.main .aesop {
+  text-align: left;
 }
-
+.main .description {
+  text-align: center;
+}
+.main .title {
+  text-align: center;
+}
+/* ESSENTIALS */
+.essentials {
+  display: grid;
+  grid-template-areas: "left right";
+  text-align: left;
+}
+.left {
+  grid-area: left;
+  width: 300px;
+}
+.right {
+  grid-area: right;
+}
+/* ARCHITECTURE */
+.arch-comp {
+  display: grid;
+  grid-template-areas: "column1 column2"
+                        "row row";
+}
+.arch-comp .column1 {
+  grid-area: column1;
+}
+.arch-comp .column2 {
+  grid-area: column2;
+  margin-left: 200px;
+}
+.arch-comp .row {
+  grid-area: row;
+}
+.slide-container {
+  margin: auto;
+  width: 900px;
+  text-align: center;
+  
+}
+/* DISCOVER */
+.discover {
+  display: grid;
+  grid-template-areas: "image column1 column2"
+                        "row row row";
+}
+.discover .column1 {
+  grid-area: column1;
+}
+.discover .column2 {
+  grid-area: column2;
+}
+.discover .row {
+  grid-area: row;
+  
+  
+}
 /* FOOTER */
 .footer {
   display: grid;
