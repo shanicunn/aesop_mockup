@@ -4,7 +4,7 @@ export default class EssentialsComp extends Component {
     render() {
         return (
             <div>
-                <section className='essentials'>
+                <section className='child essentials'>
                     {/* Left side of component: Titles and description */}
 
                     {/* Titles */}
