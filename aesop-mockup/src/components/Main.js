@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBarComp from './NavBarComp';
-
+import Background from '../assets/images/Aesop-Homepage-Banner.jpg';
 
 
 
@@ -14,9 +14,12 @@ class Main extends React.Component {
     render() {
         return(
             
-            <div className="child main">
+            <div className="child main" 
+            style={{backgroundImage: "url(" + Background + ")",
+            backgroundSize: '100% 100%',
+            }}>
             <NavBarComp />
-                <h1 className="Aesop">Aesop</h1>
+                <h1 className="aesop">Aesop</h1>
 
                 <h1 className="title">Formulations for skin, hair, home, and body</h1>
 

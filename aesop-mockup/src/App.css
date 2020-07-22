@@ -36,16 +36,18 @@ button, .input{
 /* MAIN */
 .main {
   height: 500px;
-  background-image: url('/aesop-mockup/src/Aesop-Homepage-Banner.jpg');
 }
 .main .aesop {
   text-align: left;
+  color: whitesmoke;
 }
 .main .description {
   text-align: center;
+  color: whitesmoke;
 }
 .main .title {
   text-align: center;
+  color: whitesmoke;
 }
 /* ESSENTIALS */
 .essentials {
@@ -79,6 +81,7 @@ button, .input{
 .slide-container {
   margin: auto;
   width: 900px;
+  height: 700px;
   text-align: center;
   
 }

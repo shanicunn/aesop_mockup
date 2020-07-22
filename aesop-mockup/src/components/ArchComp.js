@@ -6,8 +6,8 @@ import 'react-slideshow-image/dist/styles.css'
 // ARCHITECTURE AND DESIGN DIV
 // https://www.npmjs.com/package/react-slideshow-image
 const slideImages = [
-    'aesop-mockup/src/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg',
-    'aesop-mockup/src/Aesop-Free-Market-Carousel-1-Desktop-2560x1440px.png'
+    require('../assets/images/Aesop-Bleecker-Street-Carousel-1-Desktop-2560x1440px.jpg'),
+    require('../assets/images/Aesop-Free-Market-Carousel-1-Desktop-2560x1440px.png')
 ]
  const Slideshow = () => {
      return (

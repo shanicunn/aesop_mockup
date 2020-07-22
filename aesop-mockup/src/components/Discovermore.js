@@ -1,18 +1,18 @@
 import React from 'react';
+import image1 from '../assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png';
+
 
 class Discovermore extends React.Component {
     
 
-
-
         render() { 
             return (
                 <div className="child discover">
-                <div className="image">
-                    <img src='/src/assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png' alt='product image'></img>
-                </div>
-                <div className="column1">
-                <h1>Discover More</h1>
+                    <div className="image">
+                        <img className="image" src={image1} />
+                    </div>
+                    <div className="column1">
+                        <h1>Discover More</h1>
 
                     <h3>Kits & duets</h3>
                     <ul>
