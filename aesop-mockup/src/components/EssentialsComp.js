@@ -8,7 +8,7 @@ export default class EssentialsComp extends Component {
     render() {
         return (
             <div>
-                <section className='child essentials'>
+                <section className='child-essentials'>
                     <div className='description'>
                         {/* Left side of component: Titles and description */}
                         {/* Titles */}
@@ -21,16 +21,15 @@ export default class EssentialsComp extends Component {
 
                     <div className='product-imgs'>
                         {/* Right side of component: Images */}
-                        <img src={image1} alt='' height='300px' />
+                        
+                        <img src={image1} alt='' height='400px' />
+                    
+                        <img src={image2} alt='' height='400px' />
+                        
+                        <img src={image3} alt='' height='400px' />
 
-                        <img src={image2} alt='' height='300px' />
-
-                        <img src={image3} alt='' height='300px' />
-
-                        <img src={image4} alt='' height='300px' />
-
+                        <img src={image4} alt='' height='400px' />
                     </div>
-
                 </section>
             </div>
         )

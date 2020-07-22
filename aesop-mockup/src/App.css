@@ -1,20 +1,25 @@
-.essentials {
+.child-essentials {
   border: 1px solid black;
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
 
-  height: 40vh;
+  height: 60vh;
+  width: 100%;
   overflow-x: auto;
-  /* white-space: nowrap; */
+  overflow-y: hidden;
+
+  padding-left: 3%;
+  padding-top: 3%;
 }
 
 .product-imgs {
-  display: inline-block;
-  white-space: nowrap;
+  display: flex;
+  overflow-x: auto;
+
 }
 
 .description {
-  width: 50vw;
+  text-align: left;
+  width: 30vw;
 }
 
 .App {
